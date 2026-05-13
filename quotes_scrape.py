@@ -16,4 +16,8 @@ for quote in quotes:
     all_quotes.append({quote_text: author})
     
 with open("quotes.json", "w") as file:
+<<<<<<< HEAD
     json.dump(all_quotes, file)
+=======
+    json.dump(all_quotes, file)
+>>>>>>> aac0e9a88e8458f673e695381a92771ec4e58684
